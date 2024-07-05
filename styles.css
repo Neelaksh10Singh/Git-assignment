@@ -220,6 +220,7 @@ html {
   .work__images {
     flex-direction: column;
   }
+  /* changed something */
   .header__hamburg {
     display: flex;
     justify-content: center;
