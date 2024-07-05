@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <header id="header" class="header">
+      <img
+        src="./web-design-training-assignment//images//logo.png"
+        class="header__logo"
+        alt="mountain logo"
+      />
+      <button class="header__hamburg" onclick="toggleHamburg()">
+        <i class="fa fa-bars"></i>
+      </button>
+      <nav id="nav" class="header__navbar header__navbar--hidden">
+        <a href="#home" class="header__navlink" onclick="toggleHamburg()"
+          >Home</a
+        >
+        <a href="#about" class="header__navlink" onclick="toggleHamburg()"
+          >About</a
+        >
+        <a href="#work" class="header__navlink" onclick="toggleHamburg()"
+          >Work</a
+        >
+        <a href="#contact" class="header__navlink" onclick="toggleHamburg()"
+          >Contact</a
+        >
+      </nav>
+    </header>
+    <div class="hero" id="home">
+      <div class="hero__content">
+        <h1 class="hero__title">Hey I am Neel</h1>
+        <h4 class="hero__text">a web developer</h4>
+      </div>
+    </div>
+    <div class="about" id="about">
+      <h2 class="about__title">About<span style="color: white">_</span>Us</h2>
+      <div class="about__text">
+        <p class="about__para1">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. Lorem Ipsum has been the
+          industry's standard dummy text ever since the 1500s, when an unknown
+          printer took a galley of type and scrambled it to make a type specimen
+          book.
+        </p>
+        <p class="about__para2">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry.
+        </p>
+        <button class="about__read-more-button">Read More</button>
+      </div>
+    </div>
+    <div class="work" id="work">
+      <h2 class="about__title">These are some of my projects</h2>
+      <div class="work__images">
+        <img
+          src="./web-design-training-assignment//images/assignment_05.jpg"
+          class="work_image"
+          alt="Project Image"
+        />
+        <img
+          src="./web-design-training-assignment//images/assignment_08.jpg"
+          class="work_image"
+          alt="Project Image"
+        />
+        <img
+          src="./web-design-training-assignment//images/assignment_10.jpg"
+          class="work_image"
+          alt="Project Image"
+        />
+      </div>
+      <div class="work__images">
+        <img
+          src="./web-design-training-assignment//images/assignment_16.jpg"
+          class="work_image"
+          alt="Project Image"
+        />
+        <img
+          src="./web-design-training-assignment//images/assignment_17.jpg"
+          class="work_image"
+          alt="Project Image"
+        />
+        <img
+          src="./web-design-training-assignment//images/assignment_18.jpg"
+          class="work_image"
+          alt="Project Image"
+        />
+      </div>
+      <button class="about__read-more-button">Show All</button>
+    </div>
+    <div class="contact" id="contact">
+      <h2 class="about__title">Let's work together...</h2>
+      <p class="contact__text">How do you take your coffee?</p>
+      <div class="contact__icons">
+        <img
+          src="./web-design-training-assignment//images//facebook-icon.png"
+          class="contact__icon"
+          alt="facebook"
+        />
+        <img
+          src="./web-design-training-assignment//images//instagram-icon.png"
+          class="contact__icon"
+          alt="instagram"
+        />
+        <img
+          src="./web-design-training-assignment//images//twitter-icon.png"
+          class="contact__icon"
+          alt="twitter"
+        />
+      </div>
+    </div>
+    <footer class="footer">copyright @2020</footer>
+  </body>
+</html>
